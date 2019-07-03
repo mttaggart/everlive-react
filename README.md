@@ -66,6 +66,7 @@ Using [repl.it](https://repl.it), take our simple React demo in the `01-hello` f
 * Create a UI of multiple components
 * Use `import` and `export`
 * Organize our source folder
+* Understand styling
 
 ### Theory and Knowledge
 
@@ -73,6 +74,7 @@ By the end of this Unit, you should understand:
 
 * React Props/Proptypes
 * Rendering children
+* Lists and Keys
 * Functional vs. Class-based Components
 
 ### Skills
@@ -81,8 +83,13 @@ By the end of this Unit, you should be able to:
 
 * Create React Components using both functional and class-based approaches
 * Compose components, effectively using `props`, `propTypes`, and `children`
+* Use `.map()` to iteratively create multiple components
 
 ### Assignment
+
+Use separate component modules and styling to finish our Hero List.
+
+Currently, the UI leaves something to be desired. What's more, there's a lot more data in each `hero` object that we can display. Be creative! Use your knowledge of JSX and props to efficiently create/modify components to display this information.
 
 ## Unit 3: Union of the State—Managing Application State
 
