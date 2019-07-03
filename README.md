@@ -28,6 +28,10 @@ We are going to need a tool, as we'll see, to bundle and transpile our React cod
 yarn global add parcel-bundler
 ```
 
+### repl.it
+
+We're going to be completing assignments using [repl.it](https://repl.it). We'll walk through how together, but for now be certain you have an account there. It's free!
+
 ## Unit 1: Hello, React!
 
 ### Goals for this Unit
@@ -50,6 +54,10 @@ By the end of this Unit, you should be able to:
 * Install Yarn/Parcel/React
 * Start up a Parcel dev server
 * Write your first React component
+
+### Assignments
+
+Using [repl.it](https://repl.it), take our simple React demo in the `01-hello` folder and add some components to it. Try to use the functional component method if you can. Create the components above the `App` entry, then use JSX to add them to `App`. Create at least **two** more components.
 
 ## Unit 2: (JS)Xtreme Components
 
