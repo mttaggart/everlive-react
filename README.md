@@ -1,5 +1,33 @@
 # Introduction to React
 
+## Introduction and Expectations
+
+Welcome. You're about to learn the most popular front-end JavaScript framework in the world. Or library, depending on whom you ask. We'll get to that. React is an open-source technology built by Facebook with one objective: the efficient creation of user interfaces for the web. In this course, you'll learn how to make UI components using React and JSX, the chocolate-in-peanut-butter syntax that unites HTML and JavaScript. You'll also learn how to use components properly, manage state in an application, and correctly connect your app to external datasources. Let's begin.
+
+## Materials and Accounts
+
+We're going to use both local and cloud-based tools in this course, so it's important that we have everything we need before we begin. Let's start with things to install.
+
+### Node
+
+You're going to need the LTS version of [NodeJS](https://nodejs.org/en/)—as of this writing, version `10.16.0`. 
+
+### Editor
+
+You're going to need a fairly well-featured text editor. We recommend [VSCode](https://code.visualstudio.com/).
+
+### Package Manager
+
+The Node ecosystem has its own package repository, hosted at [npmjs](https://npmjs.com). We _could_ use the already-installed `npm` command-line package manager. However, we prefer the [Yarn](https://yarnpkg.com) tool. It's fast, secure, and has a bit cleaner output than good ol' `npm`. 
+
+### Bundler
+
+We are going to need a tool, as we'll see, to bundle and transpile our React code. This will be handled for us by [Parcel](https://parceljs.org/). Luckily, you can use Yarn to install it!
+
+```
+yarn global add parcel-bundler
+```
+
 ## Unit 1: Hello, React!
 
 ### Goals for this Unit
