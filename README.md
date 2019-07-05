@@ -87,7 +87,7 @@ By the end of this Unit, you should be able to:
 
 ### Assignment
 
-Use separate component modules and styling to finish our Hero List.
+Use separate component modules and styling to finish our Hero List. And if you're feeling brave, the teams needs a list and item componet as well.
 
 Currently, the UI leaves something to be desired. What's more, there's a lot more data in each `hero` object that we can display. Be creative! Use your knowledge of JSX and props to efficiently create/modify components to display this information.
 
