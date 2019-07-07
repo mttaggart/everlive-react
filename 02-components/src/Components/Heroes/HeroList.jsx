@@ -8,9 +8,12 @@ const style = {
 }
 
 const HeroList = ({heroes}) => {
-    const heroCards = heroes.map((h,idx) => (
-        <HeroCard hero={h} key={idx} />
-    ));
+    let heroComponents = [];
+    for(const i=0; i<heroes.length; i++) {
+        heroComponents.push(
+            <HeroCard hero={heroes[i]} key={i} />
+        );
+    }
     return (
         <div style={style}>
             {heroCards}
