@@ -1,4 +1,5 @@
 import React from "react";
+import "./HeroForm.css";
 
 class HeroForm extends React.Component {
     constructor(props) {
@@ -23,15 +24,15 @@ class HeroForm extends React.Component {
     render() {
 
         return (
-            <div>
-                <h3>New Hero</h3>
+            <div className="hero-form">
+                <h3 className="hero-form-title">New Hero</h3>
                 <form onSubmit={this.props.submitHandler}>
                     <label>Hero Name</label>
                     <input type="text" id="hero-name" />
                     <label>Secret Identity</label>
                     <input type="text" id="hero-id" />
                     <label>Powers</label>
-                    <textarea id="hero-powers"></textarea>
+                    <input type="text" id="hero-powers" />
                     <label>Status</label>
                     <input type="text" id="hero-status" />
                     <label>Team</label>
