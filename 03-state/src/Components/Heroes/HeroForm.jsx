@@ -4,6 +4,7 @@ class HeroForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            errors: [],
             hero: {
                 name: "",
                 secretIdentity: "",
@@ -36,6 +37,7 @@ class HeroForm extends React.Component {
                     <input type="text" id="hero-status" />
                     <label>Team</label>
                     <input type="text" id="hero-team" />
+                    <button type="submit">Add Hero</button>
                 </form>
             </div>
         )
