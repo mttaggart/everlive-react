@@ -22,7 +22,6 @@ class HeroForm extends React.Component {
 
     render() {
 
-        const 
         return (
             <div>
                 <h3>New Hero</h3>
