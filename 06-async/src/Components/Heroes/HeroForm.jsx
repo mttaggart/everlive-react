@@ -4,15 +4,16 @@ import "./HeroForm.css";
 class HeroForm extends React.Component {
     constructor(props) {
         super(props);
+        this.defaultHero = {
+            name: "",
+            secretIdentity: "",
+            powers: [],
+            status: "",
+            team: ""
+        }
         this.state = {
             errors: [],
-            hero: {
-                name: "",
-                secretIdentity: "",
-                powers: [],
-                status: "",
-                team: ""
-            }
+            hero: this.defaultHero
         }
     }
 
@@ -44,6 +45,8 @@ class HeroForm extends React.Component {
     onSubmit(e) {
         e.preventDefault();
         this.props.submitHandler(this.state.hero);
+        // Reset state to default
+        this.setState({hero: this.defaultHero});
     }
 
     render() {
