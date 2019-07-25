@@ -1,0 +1,19 @@
+.power-list-heading {
+    cursor: pointer;
+}
+
+.power-list-heading:hover {
+    text-decoration: underline;
+}
+
+.power-list {
+    max-height: 0px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.toggled {
+    max-height: 250px;
+    opacity: 1;
+}
+
