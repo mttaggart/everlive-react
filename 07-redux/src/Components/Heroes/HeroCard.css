@@ -1,0 +1,19 @@
+.hero-card {
+    background: #707070;
+    box-shadow: 0px 2px 2px #3d3d3d;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+    
+}
+
+.hero-title {
+    background: #3d3d3d;
+    padding: 5px;
+    margin: 0px;
+    font-size: 1.4em;
+}
+
+.hero-details {
+    padding: 5px;
+}
